@@ -10,4 +10,6 @@
 
 @interface IndexWindow : NSWindow
 @property (nonatomic,strong)NSButton *closeBtn;
+@property (nonatomic,strong)NSButton *panelBtn;
+
 @end

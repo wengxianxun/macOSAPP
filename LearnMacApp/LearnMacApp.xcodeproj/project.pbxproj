@@ -18,6 +18,7 @@
 		9086F1A81FF3E6DE00565E27 /* IndexWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9086F1A71FF3E6DE00565E27 /* IndexWindow.m */; };
 		90A090451FF5312F001DA6B7 /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A090441FF5312F001DA6B7 /* IndexViewController.m */; };
 		90A090481FF532DD001DA6B7 /* IndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A090471FF532DD001DA6B7 /* IndexView.m */; };
+		90A0904E1FF53836001DA6B7 /* IndexPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A0904D1FF53836001DA6B7 /* IndexPanel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		90A090441FF5312F001DA6B7 /* IndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
 		90A090461FF532DD001DA6B7 /* IndexView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexView.h; sourceTree = "<group>"; };
 		90A090471FF532DD001DA6B7 /* IndexView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexView.m; sourceTree = "<group>"; };
+		90A0904C1FF53836001DA6B7 /* IndexPanel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexPanel.h; sourceTree = "<group>"; };
+		90A0904D1FF53836001DA6B7 /* IndexPanel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexPanel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 				90A090441FF5312F001DA6B7 /* IndexViewController.m */,
 				90A090461FF532DD001DA6B7 /* IndexView.h */,
 				90A090471FF532DD001DA6B7 /* IndexView.m */,
+				90A0904C1FF53836001DA6B7 /* IndexPanel.h */,
+				90A0904D1FF53836001DA6B7 /* IndexPanel.m */,
 			);
 			path = LearnMacApp;
 			sourceTree = "<group>";
@@ -290,6 +295,7 @@
 				9086F1A81FF3E6DE00565E27 /* IndexWindow.m in Sources */,
 				09D9B40A1FF389E800536A34 /* AppDelegate.m in Sources */,
 				90A090451FF5312F001DA6B7 /* IndexViewController.m in Sources */,
+				90A0904E1FF53836001DA6B7 /* IndexPanel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
