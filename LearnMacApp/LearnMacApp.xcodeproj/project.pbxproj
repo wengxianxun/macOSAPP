@@ -17,6 +17,7 @@
 		09D9B43A1FF38E0000536A34 /* IndexWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D9B4391FF38E0000536A34 /* IndexWindowController.m */; };
 		9086F1A81FF3E6DE00565E27 /* IndexWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9086F1A71FF3E6DE00565E27 /* IndexWindow.m */; };
 		90A090451FF5312F001DA6B7 /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A090441FF5312F001DA6B7 /* IndexViewController.m */; };
+		90A090481FF532DD001DA6B7 /* IndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A090471FF532DD001DA6B7 /* IndexView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		9086F1A71FF3E6DE00565E27 /* IndexWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexWindow.m; sourceTree = "<group>"; };
 		90A090431FF5312F001DA6B7 /* IndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
 		90A090441FF5312F001DA6B7 /* IndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
+		90A090461FF532DD001DA6B7 /* IndexView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexView.h; sourceTree = "<group>"; };
+		90A090471FF532DD001DA6B7 /* IndexView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				9086F1A71FF3E6DE00565E27 /* IndexWindow.m */,
 				90A090431FF5312F001DA6B7 /* IndexViewController.h */,
 				90A090441FF5312F001DA6B7 /* IndexViewController.m */,
+				90A090461FF532DD001DA6B7 /* IndexView.h */,
+				90A090471FF532DD001DA6B7 /* IndexView.m */,
 			);
 			path = LearnMacApp;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 				09D9B40D1FF389E800536A34 /* ViewController.m in Sources */,
 				09D9B4151FF389E800536A34 /* main.m in Sources */,
 				09D9B43A1FF38E0000536A34 /* IndexWindowController.m in Sources */,
+				90A090481FF532DD001DA6B7 /* IndexView.m in Sources */,
 				9086F1A81FF3E6DE00565E27 /* IndexWindow.m in Sources */,
 				09D9B40A1FF389E800536A34 /* AppDelegate.m in Sources */,
 				90A090451FF5312F001DA6B7 /* IndexViewController.m in Sources */,

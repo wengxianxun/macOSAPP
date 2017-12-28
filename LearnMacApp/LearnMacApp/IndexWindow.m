@@ -7,15 +7,11 @@
 //
 
 #import "IndexWindow.h"
-//self.btn = [[NSButton alloc]initWithFrame:NSMakeRect(100, 100, 150, 50)];
-//[self.btn setTitle:@"hello world"];
-//self.btn.bezelStyle = NSRoundedBezelStyle;
-//self.btn.alignment = NSTextAlignmentCenter;
-//self.btn.transparent = NO;
-//self.btn.highlighted = NO;
-//[self.btn setTarget:self];
-//[self.btn setAction:@selector(click)];
-//[self.view addSubview:self.btn];
+#import "IndexView.h"
+@interface IndexWindow()
+@property (nonatomic,strong)IndexView *indexView;
+@end
+
 @implementation IndexWindow
 - (instancetype)initWithContentRect:(NSRect)contentRect styleMask:(NSWindowStyleMask)style backing:(NSBackingStoreType)backingStoreType defer:(BOOL)flag{
     
@@ -27,6 +23,10 @@
 }
 
 -(void)initSubView{
+    
+    self.indexView = [[IndexView alloc]initWithFrame:CGRectMake(10, 10, 200, 200)];
+    [self.contentView addSubview:self.indexView];
+    
     self.closeBtn = [[NSButton alloc]initWithFrame:CGRectMake(100, 100, 150, 50)];
     [self.closeBtn setTitle:@"关闭"];
     [self.closeBtn setTarget:self];
