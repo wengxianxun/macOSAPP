@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import "IndexWindowController.h"
 @interface AppDelegate : NSObject <NSApplicationDelegate>{
-    IndexWindowController *indexWindow;
+    IndexWindowController *indexWindowController;
 }
 
 

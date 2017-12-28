@@ -35,10 +35,10 @@
 //}
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
-    indexWindow = [[IndexWindowController alloc]init];
-     [indexWindow.window setContentSize:NSMakeSize(1000, 800)];
-    [indexWindow.window makeKeyAndOrderFront:self];
-    [indexWindow showWindow:self];
+    indexWindowController = [[IndexWindowController alloc]init];
+     [indexWindowController.window setContentSize:NSMakeSize(1000, 800)];
+    [indexWindowController.window makeKeyAndOrderFront:self];
+    [indexWindowController showWindow:self];
     
 }
 

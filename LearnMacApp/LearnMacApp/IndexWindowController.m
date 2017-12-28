@@ -7,9 +7,9 @@
 //
 
 #import "IndexWindowController.h"
-
+#import "IndexWindow.h"
 @interface IndexWindowController ()
-
+@property (nonatomic,strong)IndexWindow *indexWindow;
 @end
 
 @implementation IndexWindowController
@@ -28,13 +28,20 @@
 -(void)initIndexWindow{
     
     NSRect frame = CGRectMake(0, 0, 200, 200);
-//    NSUInteger style =  NSTitledWindowMask | NSClosableWindowMask |NSMiniaturizableWindowMask | NSResizableWindowMask;
-    NSWindow *window = [[NSWindow alloc] initWithContentRect:frame styleMask:NSWindowStyleMaskTitled backing:NSBackingStoreBuffered defer:YES];//[NSWindow alloc]initWithContentRect:frame styleMask:style backing:NSBackingStoreBuffered defer:YES];
-    window.title = @"New Create Window";
-    window.backgroundColor = [NSColor redColor];
+NSUInteger style =  NSTitledWindowMask | NSClosableWindowMask |NSMiniaturizableWindowMask | NSResizableWindowMask;
+    self.indexWindow = [[IndexWindow alloc] initWithContentRect:frame styleMask:style backing:NSBackingStoreBuffered defer:YES];//[NSWindow alloc]initWithContentRect:frame styleMask:style backing:NSBackingStoreBuffered defer:YES];
+    self.indexWindow.title = @"New Create Window";
+//    window.backgroundColor = [NSColor redColor];
     //窗口显示
-    [window makeKeyAndOrderFront:self];
+    [self.indexWindow makeKeyAndOrderFront:self];
     //窗口居中
-    [window center];
+    [self.indexWindow center];
+//    [self orderout];
+//    [[NSApplication sharedApplication]runModalForWindow:self.indexWindow];
+}
+
+-(void)orderout{
+    
+    
 }
 @end

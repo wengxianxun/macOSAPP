@@ -15,6 +15,8 @@
 		09D9B4201FF389E800536A34 /* LearnMacAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D9B41F1FF389E800536A34 /* LearnMacAppTests.m */; };
 		09D9B42B1FF389E800536A34 /* LearnMacAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D9B42A1FF389E800536A34 /* LearnMacAppUITests.m */; };
 		09D9B43A1FF38E0000536A34 /* IndexWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D9B4391FF38E0000536A34 /* IndexWindowController.m */; };
+		9086F1A81FF3E6DE00565E27 /* IndexWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9086F1A71FF3E6DE00565E27 /* IndexWindow.m */; };
+		90A090451FF5312F001DA6B7 /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A090441FF5312F001DA6B7 /* IndexViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		09D9B42C1FF389E800536A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09D9B4381FF38E0000536A34 /* IndexWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexWindowController.h; sourceTree = "<group>"; };
 		09D9B4391FF38E0000536A34 /* IndexWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexWindowController.m; sourceTree = "<group>"; };
+		9086F1A61FF3E6DE00565E27 /* IndexWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexWindow.h; sourceTree = "<group>"; };
+		9086F1A71FF3E6DE00565E27 /* IndexWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexWindow.m; sourceTree = "<group>"; };
+		90A090431FF5312F001DA6B7 /* IndexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
+		90A090441FF5312F001DA6B7 /* IndexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,10 @@
 				09D9B4161FF389E800536A34 /* LearnMacApp.entitlements */,
 				09D9B4381FF38E0000536A34 /* IndexWindowController.h */,
 				09D9B4391FF38E0000536A34 /* IndexWindowController.m */,
+				9086F1A61FF3E6DE00565E27 /* IndexWindow.h */,
+				9086F1A71FF3E6DE00565E27 /* IndexWindow.m */,
+				90A090431FF5312F001DA6B7 /* IndexViewController.h */,
+				90A090441FF5312F001DA6B7 /* IndexViewController.m */,
 			);
 			path = LearnMacApp;
 			sourceTree = "<group>";
@@ -271,7 +281,9 @@
 				09D9B40D1FF389E800536A34 /* ViewController.m in Sources */,
 				09D9B4151FF389E800536A34 /* main.m in Sources */,
 				09D9B43A1FF38E0000536A34 /* IndexWindowController.m in Sources */,
+				9086F1A81FF3E6DE00565E27 /* IndexWindow.m in Sources */,
 				09D9B40A1FF389E800536A34 /* AppDelegate.m in Sources */,
+				90A090451FF5312F001DA6B7 /* IndexViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
