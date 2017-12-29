@@ -1,0 +1,107 @@
+{
+  "groups": [
+    {
+      "keys": "loadingSheet",
+      "name": "loading"
+    },
+    {
+      "keys": "font_fnt",
+      "name": "timeFont"
+    },
+    {
+      "keys": "bg_jpg,elems_sheet,uiSheet,title_png,panel2_png,exploPng,exploJSON,hxPng,hxJSON,boomPng,boomJSON,boosPng1,boosJSON1",
+      "name": "preload"
+    },
+    {
+      "keys": "boosPng2,boosJSON2",
+      "name": "gaming_boss"
+    }
+  ],
+  "resources": [
+    {
+      "name": "bg_jpg",
+      "type": "image",
+      "url": "assets/game_scene.jpg"
+    },
+    {
+      "name": "title_png",
+      "type": "image",
+      "url": "assets/end_title.png"
+    },
+    {
+      "name": "panel2_png",
+      "type": "image",
+      "url": "assets/panel2.png"
+    },
+    {
+      "name": "elems_sheet",
+      "type": "sheet",
+      "url": "assets/elems.json"
+    },
+    {
+      "name": "loadingSheet",
+      "type": "sheet",
+      "url": "assets/loading.json"
+    },
+    {
+      "name": "exploPng",
+      "type": "image",
+      "url": "assets/explo.png"
+    },
+    {
+      "name": "exploJSON",
+      "type": "json",
+      "url": "assets/explo.json"
+    },
+    {
+      "name": "hxPng",
+      "type": "image",
+      "url": "assets/hx1.png"
+    },
+    {
+      "name": "hxJSON",
+      "type": "json",
+      "url": "assets/hx1.json"
+    },
+    {
+      "name": "boomPng",
+      "type": "image",
+      "url": "assets/boom.png"
+    },
+    {
+      "name": "boomJSON",
+      "type": "json",
+      "url": "assets/boom.json"
+    },
+    {
+      "name": "boosPng1",
+      "type": "image",
+      "url": "assets/boss_ac1.png"
+    },
+    {
+      "name": "boosJSON1",
+      "type": "json",
+      "url": "assets/boss_ac1.json"
+    },
+    {
+      "name": "boosPng2",
+      "type": "image",
+      "url": "assets/boss_ac2.png"
+    },
+    {
+      "name": "boosJSON2",
+      "type": "json",
+      "url": "assets/boss_ac2.json"
+    },
+    {
+      "name": "font_fnt",
+      "type": "font",
+      "url": "assets/font.fnt"
+    },
+    {
+      "name": "uiSheet",
+      "type": "sheet",
+      "url": "assets/ui.json"
+    }
+  ]
+}
