@@ -30,7 +30,6 @@
     <script>
         var _dir=[],_dir_st=Date.now(),step=1;
         console.log("setp"+step) ;
-        alert("setp"+step++)
     </script>
 </head>
 
@@ -49,7 +48,6 @@
     </div>
 <script>
     console.log("setp"+step) ;
-    alert("setp"+step++)
     var loadScript = function (list, callback) {
         var loaded = 0;
         var loadNext = function () {
@@ -82,14 +80,11 @@
     xhr.open('GET', './manifest.json?v=' + Math.random(), true);
     xhr.addEventListener("load", function () {
         console.log("setp  manifest  loaded"+step) ;
-        alert("setp  manifest  loaded"+step++);
+         
                          
         var manifest = JSON.parse(xhr.response);
-                     alert("5555");
         var list = manifest.initial.concat(manifest.game);
-                  alert("6666");
         loadScript(list, function () {
-                   alert("111111");
             /**
              * {
              * "renderMode":, //Engine rendering mode, "canvas" or "webgl"
@@ -108,7 +103,6 @@
                 return (window.devicePixelRatio || 1) / backingStore;
                            
             }});
-                   alert("22222");
         });
     });
     xhr.send(null);
@@ -142,8 +136,7 @@
             if (window.performance)_dir_pret =performance.now(); else  _dir_pret= (Date.now() - _dir_st);
             _dir.push(["preload_page_showTime",Math.ceil(_dir_pret/1000)]);
 
-            console.log("setp  preload_page_show"+step) ;
-            alert("setp  preload_page_show"+step++);
+            console.log("setp  preload_page_show"+step) ; 
         </script>
     </div>
 

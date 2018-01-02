@@ -13,6 +13,7 @@ var Main = (function (_super) {
         game = this;
     }
     Main.prototype.onAddToStage = function (event) {
+            alert("sdfsdf");
         egret.lifecycle.addLifecycleListener(function (context) {
             // custom lifecycle plugin
             context.onUpdate = function () {

@@ -42,6 +42,7 @@ var Main = (function (_super) {
         this.loadingView.bar.text.visible = false;
         //初始化Resource资源加载库
         //initiate Resource loading library
+            alert(RES);
         RES.addEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this.onConfigComplete, this);
         RES.loadConfig("resource/default.res.json", "resource/");
     };
